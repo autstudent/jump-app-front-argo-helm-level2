@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  jump-app-front:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-08-05T08:33:45.526229+02:00"
+    description: A Helm chart for Kubernetes
+    digest: ffd33ba2c723a1694f75fbb0e36350cf7044357a98089559fe8e056329d5951d
+    name: jump-app-front
+    type: application
+    urls:
+    - https://autstudent.github.io/jump-app-front-argo-helm-level2/charts/jump-app-front-0.1.0.tgz
+    version: 0.1.0
+  jump-app-front-level2:
+  - apiVersion: v2
+    appVersion: 0.1.16
+    created: "2021-08-05T08:33:45.525969+02:00"
+    dependencies:
+    - name: jump-app-front
+      repository: https://autstudent.github.io/jump-app-front-argo-helm
+      version: 0.1.0
+    description: A Helm chart to deploy JumpApp for Kubernetes
+    digest: 8dbbb040c6241f30a28adc52564c24f3d57df772178164e1a7153d665433ab84
+    name: jump-app-front-level2
+    type: application
+    urls:
+    - https://autstudent.github.io/jump-app-front-argo-helm-level2/jump-app-front-level2-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-08-05T08:33:45.523598+02:00"
