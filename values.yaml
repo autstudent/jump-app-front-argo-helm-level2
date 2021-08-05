@@ -7,4 +7,4 @@ jump-app-front:
   service:
     port: 8080
   route:
-    security: Disable
+    security: Allow
